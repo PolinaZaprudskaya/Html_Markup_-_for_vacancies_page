@@ -1,0 +1,142 @@
+.sidebar {
+    width: 200px;
+    float: left;
+    background: #F5F5F5;
+    box-shadow: 6px 0 10px -4px rgba(0,0,0,0.2);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    left: 0;
+}
+.content{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    left: 200px;
+    background: #FFFFFF;
+}
+.sidebar p, .v p{
+    padding: 5px 40px;
+    font-family: "Comic Sans MS";
+    color: #696969;
+    font-size: 18px;
+}
+.menu p:hover,.menu p:active,.menu p:focus {
+    background: #D3D3D3;
+}
+.filter p{
+    padding: 0 40px;
+    font-family: "Comic Sans MS";
+    color: #696969;
+    font-size: 12px;
+}
+a{
+    color: #696969;
+    text-decoration: none;
+    outline: none;
+}
+a:visited{
+    background: #696969;
+}
+.form{
+    display: flex;
+    width: 100%;
+    color: #696969;
+    padding: 5px 40px;
+    background: #F5F5F5;
+    border: 0;
+}
+input[type="search"] {
+
+    height: 30px;
+    border: 0;
+    width: 50%;
+    background: #F5F5F5;
+
+}
+.q{
+    position: fixed; /* Фиксированное положение */
+    right: 50px; /* Расстояние от правого края окна браузера */
+    top: 10px;
+
+}
+.form button img{
+    width: 20px;
+    height: 20px;
+    background: #F5F5F5;
+}
+.form button{
+    border: 0;
+    background: #F5F5F5;
+}
+.filter{
+    align-items: center;
+    display: flex;
+}
+button, select{
+    cursor: pointer;
+}
+select{
+    width: 120px ;
+    height: 20px;
+    border-radius: 50px 50px 50px 50px;
+    font-family: "Comic Sans MS";
+    color: #696969;
+    font-size: 12px;
+    background: #F5F5F5;
+}
+table {
+    font-family: "Comic Sans MS";
+    color: #696969;
+    font-size: 15px;
+    width: 90%;
+    text-align: left;
+    border-collapse: collapse;
+    border-bottom: 1px solid #F5F5F5;
+
+}
+td{
+    padding: 25px 25px;
+    background: white;
+    border-top: 1px solid #F5F5F5;
+}
+th{
+    padding: 10px 25px;
+    background: white;
+    border-top: 1px solid #F5F5F5;
+}
+.plus button{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    padding: 10px;
+    background: #DCDCDC;
+    border-radius: 50%;
+    border: 0;
+}
+.plus button img{
+    width: 40px;
+    height: 40px;
+    background: #DCDCDC;
+}
+
+.rows {
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    left: 225px;
+}
+
+.rows select{
+    width: 40px ;
+    height: 20px;
+    border: 0;
+    font-family: "Comic Sans MS";
+    color: #696969;
+    font-size: 12px;
+    background: none;
+}
