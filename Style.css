@@ -83,7 +83,7 @@ select{
     width: 120px ;
     height: 20px;
     border-radius: 50px 50px 50px 50px;
-    font-family: "Comic Sans MS";
+
     color: #696969;
     font-size: 12px;
     background: #F5F5F5;
@@ -129,13 +129,14 @@ th{
     display: flex;
     position: fixed;
     left: 225px;
+    font-family: "Comic Sans MS";
+    color: #696969;
 }
 
 .rows select{
     width: 40px ;
     height: 20px;
     border: 0;
-    font-family: "Comic Sans MS";
     color: #696969;
     font-size: 12px;
     background: none;
