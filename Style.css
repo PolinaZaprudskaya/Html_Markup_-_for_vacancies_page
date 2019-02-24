@@ -109,6 +109,7 @@ th{
     border-top: 1px solid #F5F5F5;
 }
 .plus button{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
     position: fixed;
     right: 50px;
     bottom: 50px;
