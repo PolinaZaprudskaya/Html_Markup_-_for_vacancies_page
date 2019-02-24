@@ -72,7 +72,7 @@ button, select{
 select{
     width: 120px ;
     height: 20px;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 50px;
     color: #696969;
     font-size: 12px;
     background: #F5F5F5;
@@ -101,7 +101,6 @@ th{
     position: fixed;
     right: 50px;
     bottom: 50px;
-    padding: 10px;
     background: #DCDCDC;
     border-radius: 50%;
     border: 0;
@@ -118,19 +117,49 @@ th{
     font-family: "Comic Sans MS";
     color: #696969;
 }
+.rows p{
+    margin: 0 20px 0 20px;
+}
 .rows select{
     width: 30px ;
     height: 20px;
     border: 0;
     background: none;
+    margin: 0 0 0 20px;
 }
-i.fas {
+i.fas{
     border: 0;
     font-size: 20px;
     color: #A9A9A9;
-
+}
+i.fas .fa-angle-left, .fa-angle-right, .fa-bell, .fa-search, .fa-sign-in-alt{
+    margin: 0 0 0 20px;
 }
 .rows button{
     border: 0;
     background: none;
+}
+.filter-item button{
+    border: 0;
+    background: none;
+}
+.filter-item{
+    position: relative;
+    color: #696969;
+    font-size: 12px;
+    font-family: "Comic Sans MS";
+    margin: 0 0 0 20px; /*верхнего, правого, нижнего и левого края*/
+    width: 120px ;
+    height: 20px;
+    border-radius: 50px;
+    background: #F5F5F5;
+}
+.close-btn{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+}
+span{
+    margin: 0 0 0 40px;
 }
