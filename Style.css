@@ -72,6 +72,7 @@ button, select{
 select{
     width: 120px ;
     height: 20px;
+    border: 0;
     border-radius: 50px;
     color: #696969;
     font-size: 12px;
@@ -97,7 +98,7 @@ th{
     border-top: 1px solid #F5F5F5;
 }
 .plus button{
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     position: fixed;
     right: 50px;
     bottom: 50px;
@@ -129,10 +130,16 @@ th{
 }
 i.fas{
     border: 0;
-    font-size: 20px;
     color: #A9A9A9;
 }
-i.fas .fa-angle-left, .fa-angle-right, .fa-bell, .fa-search, .fa-sign-in-alt{
+i.fas .fa-times{
+    font-size: 12px;
+
+}
+.fa-angle-left, .fa-angle-right, .fa-bell, .fa-search, .fa-sign-in-alt, .fa-plus{
+    font-size: 20px;
+}
+.fa-angle-left, .fa-angle-right, .fa-bell, .fa-search, .fa-sign-in-alt{
     margin: 0 0 0 20px;
 }
 .rows button{
@@ -152,7 +159,7 @@ i.fas .fa-angle-left, .fa-angle-right, .fa-bell, .fa-search, .fa-sign-in-alt{
     width: 120px ;
     height: 20px;
     border-radius: 50px;
-    background: #F5F5F5;
+    border: 1px solid #F5F5F5;;
 }
 .close-btn{
     position: absolute;
@@ -161,5 +168,5 @@ i.fas .fa-angle-left, .fa-angle-right, .fa-bell, .fa-search, .fa-sign-in-alt{
     bottom: 0;
 }
 span{
-    margin: 0 0 0 40px;
+    margin: 0 0 0 5px;
 }
