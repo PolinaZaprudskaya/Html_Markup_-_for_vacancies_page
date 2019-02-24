@@ -98,7 +98,7 @@ th{
     border-top: 1px solid #F5F5F5;
 }
 .plus button{
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     position: fixed;
     right: 50px;
     bottom: 50px;
@@ -107,6 +107,9 @@ th{
     border: 0;
     width: 60px;
     height: 60px;
+}
+.active{
+    background: #DCDCDC ;
 }
 .rows {
     font-size: 12px;
@@ -119,14 +122,14 @@ th{
     color: #696969;
 }
 .rows p{
-    margin: 0 20px 0 20px;
+    margin: 0 20px;
 }
 .rows select{
     width: 30px ;
     height: 20px;
     border: 0;
     background: none;
-    margin: 0 0 0 20px;
+    margin-left: 20px;
 }
 i.fas{
     border: 0;
@@ -134,13 +137,12 @@ i.fas{
 }
 i.fas .fa-times{
     font-size: 12px;
-
 }
 .fa-angle-left, .fa-angle-right, .fa-bell, .fa-search, .fa-sign-in-alt, .fa-plus{
     font-size: 20px;
 }
 .fa-angle-left, .fa-angle-right, .fa-bell, .fa-search, .fa-sign-in-alt{
-    margin: 0 0 0 20px;
+    margin-left: 20px;
 }
 .rows button{
     border: 0;
@@ -151,11 +153,12 @@ i.fas .fa-times{
     background: none;
 }
 .filter-item{
+    line-height: 20px;
     position: relative;
     color: #696969;
     font-size: 12px;
     font-family: "Comic Sans MS";
-    margin: 0 0 0 20px; /*верхнего, правого, нижнего и левого края*/
+    margin-left: 20px;
     width: 120px ;
     height: 20px;
     border-radius: 50px;
@@ -168,5 +171,5 @@ i.fas .fa-times{
     bottom: 0;
 }
 span{
-    margin: 0 0 0 5px;
+    margin-left: 10px;
 }
